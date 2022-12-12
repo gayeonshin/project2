@@ -1,0 +1,53 @@
+@charset "utf-8";
+#slider{width: 100%; height: auto; margin: 0 auto; position: relative;}
+#slider video{min-width: 100%; min-height: 615px; top: 0; left: 0; margin: 0 auto;}
+#slider .container{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 307px;}
+#slider .container span{color: #ff0000; font-size: 20px;}
+#slider .container h1{color: #fff; font-size: 70px; padding-bottom: 10px;}
+#slider .container p{color: #fff; font-size: 20px; padding: 10px 0;}
+#slider .container button{width: 265px; height: 45px; background-color: #ff0000; color: #fff; border: none; font-size: 16px; font-weight: bold; margin-top: 20px;}
+#slider .container button:hover{background-color: #000; cursor: pointer;}
+
+section{width: 100%; height: auto; background-color: gold; margin: 0 auto;}
+section .box1{width: 48%; height: 570px; float: left; position: relative; }
+section .box1 img:nth-of-type(1){width: 300px; position: absolute; top: 0; left: 0;}
+section .box1 img:nth-of-type(2){width: 300px; position: absolute; right: 0; bottom: 0;}
+section .industry{width: 50%; height: 560px; float: right;  padding: 20px; position: relative;}
+section>.container>.industry>p:first-child{color: #ff0000; font-weight: bold;}
+section .container .industry h1{font-size: 60px;}
+section .container .industry p{color: #666; font-size: 18px;}
+section .container .experience{width: 156px; height: 197px; background-color: #ff0000; padding: 15px 10px; margin: 20px 0;}
+section .container .experience h1{font-size: 72px;}
+section .container .experience h5{font-size: 20px; color: #fff; padding: 0 10px;}
+section .container .list{width: 200px; height: 185px; padding: 10px; position: absolute; right: 40%; top: 34.5%;}
+section .container .list p{padding: 5px;}
+section .container .list p i{color: #ff0000;}
+section .container .inquiry{width: 560px; height: 65px; display: flex; flex-wrap: wrap;}
+section .container .inquiry .message{width: 280px; height: 65px; padding: 7px; display: flex; flex-direction: row;}
+section .container .inquiry .voice{width: 280px; height: 65px; padding: 7px; display: flex; flex-direction: row;}
+section .container .circle{width: 50px; height: 50px; border-radius: 50%; background-color: #ff0000; padding: 16px;}
+section .container .circle i{color: #fff;}
+section .container .text{padding: 0 20px;}
+section .container .text h5{font-size: 18px;}
+
+section .about{clear: both; width: 100%; height: 375px; background-color: #000; display: flex; justify-content: space-around; align-items: center;}
+section .about .box2{width: 22%; height: 278px; border: 1px solid #fff; text-align: center;}
+section .about .box2 i{font-size: 120px; padding: 40px 0; color: #fff;}
+section .about .box2 i:hover{cursor: pointer; color: #ff0000;}
+section .about .box2 h5 a{font-size: 20px; color: #fff;}
+
+section .container .box3{width: 45%; height: 700px; float: left; position: relative;}
+section .container .box3 img{width: 100%; height: 700px;}
+section .container .box3 .bottonbox{width: 120px; height: 120px; background-color: #fff; border: none; border-radius: 50%; position: absolute; right: -60px; top: 50%; transform: translateY(-50%);}
+section .container .box3 button{width: 60px; height: 60px; background-color: #ff0000; border: none; border-radius: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+section .container .box3 i{color: #fff; font-size: 20px; padding: 10px;}
+
+section .container .choosing{width: 50%; height: 700px; float: right;}
+section>.container>.choosing>p:first-child{color: #ff0000; font-weight: bold;}
+section .container .choosing h1{font-size: 60px;}
+section .container .choosing p{color: #666; font-size: 18px; margin: 10px 0;}
+section .container .reason{display: flex; flex-wrap: wrap;}
+section .container .reason .check{width: 50px; height: 50px; background-color: red; border: none; border-radius: 50px; padding: 17px; float: left;}
+section .container .reason .check i{color: #fff;}
+section .container .reason h4{font-size: 24px; margin: 10px; width: 89%;}
+section .container .reason p{width: 93%;}
