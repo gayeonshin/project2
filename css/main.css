@@ -1,7 +1,7 @@
 @charset "utf-8";
 #slider{width: 100%; height: auto; margin: 0 auto; position: relative;}
 #slider video{min-width: 100%; min-height: 615px; top: 0; left: 0; margin: 0 auto;}
-#slider .container{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 307px;}
+#slider .container{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 450px;}
 #slider .container span{color: #ff0000; font-size: 20px;}
 #slider .container h1{color: #fff; font-size: 70px; padding-bottom: 10px;}
 #slider .container p{color: #fff; font-size: 20px; padding: 10px 0;}
@@ -40,6 +40,7 @@ section .container .box3{width: 45%; height: 700px; float: left; position: relat
 section .container .box3 img{width: 100%; height: 700px;}
 section .container .box3 .bottonbox{width: 120px; height: 120px; background-color: #fff; border: none; border-radius: 50%; position: absolute; right: -60px; top: 50%; transform: translateY(-50%);}
 section .container .box3 button{width: 60px; height: 60px; background-color: #ff0000; border: none; border-radius: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+section .container .box3 button:hover{cursor: pointer;}
 section .container .box3 i{color: #fff; font-size: 20px; padding: 10px;}
 
 section .container .choosing{width: 50%; height: 700px; float: right;}
@@ -51,3 +52,20 @@ section .container .reason .check{width: 50px; height: 50px; background-color: r
 section .container .reason .check i{color: #fff;}
 section .container .reason h4{font-size: 24px; margin: 10px; width: 89%;}
 section .container .reason p{width: 93%;}
+
+section .container .product{width: 1296px; height: 100%; background-color: lightgreen;}
+section .container .product p{color: #ff0000; font-size: 18px; font-weight: bold; text-align: center;}
+section .container .product h1{font-size: 60px; text-align: center; padding: 10px 0 20px 0;}
+section .container .box-wrap{width: 1296px; height: 546px; background-color: lightblue;}
+section .container .box-wrap .box{width: 30%; height: 546px; background-color: lightcoral; display: flex; flex-wrap: wrap; float: left; margin: 0 1.5%; position: relative; bottom: 0;}
+section .container .box-wrap .box .item{width: 100%; height: 407px; background-color: lightcyan; position: absolute; bottom: 5%;}
+section .container .box-wrap .box .item h3{text-align: center; height: 60px; top: 50%; font-size: 30px;}
+section .container .box-wrap .box img{width: 130px; height: 130px; position: absolute; top: 10%; left: 32.5%; z-index: 3;}
+section .container .box-wrap .box button{width: 130px; height: 50px; position: absolute; bottom: 0; left: 32%;}
+
+section .brand{width: 100%; height: 766px; background-color: #000;}
+section .brand p{color: #ff0000; font-size: 18px; font-weight: bold; text-align: center;}
+section .brand h1{color: #fff; font-size: 60px; text-align: center;}
+section .brand .branditem{width: 100%; height: 475px; background-color: lightgoldenrodyellow; display: flex;}
+section .brand .branditem a{width: 20%; height: 475px;}
+section .brand .branditem img{background-color: lightgray; width: 100%;}

@@ -3,7 +3,7 @@
 ul,li,ol{list-style: none;}
 a{text-decoration: none; color: #333;}
 
-.container {width: 1296px; height: 100%; margin: 0 auto; background-color: navy; overflow: hidden;}
+.container {width: 1296px; height: 100%; margin: 0 auto; background-color: navy; overflow: hidden; padding: 100px 0;}
 header{width: 100%; height: 121px; margin: 0 auto;}
 
 #headertop{width: 100%; height: 46px; background: #000; margin: 0 auto; position: relative;}
