@@ -9,6 +9,23 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.prev').click(function () {
+                $('.slide li:last').prependTo('.slide');
+                $('.slide').css('margin-left', '-100%');
+                $('.slide').stop().animate({ marginLeft: 0 }, 800);
+            });
+            $('.next').click(function () {
+                $('.slide').stop().animate({ marginLeft: '-100%' }, 800, function () {
+                    $('.slide li:first').appendTo('.slide');
+                    $('.slide').css({ marginLeft: 0 });
+                });
+            });
+        });
+        
+    </script>
 </head>
 
 <body>
@@ -319,27 +336,72 @@
             </div>
         </div>
         <div class="container">
-            <div class="testimonial">
+            <div class="reviewwrap">
                 <p>TESTIMONIAL</p>
                 <h1>What Our Clients Say!</h1>
-                <div class="reviewwrap">
-                    <div class="review">
-                        <div class="client">
-                            <img src="img/main/person1.png" alt="client1">
-                        </div>
-                        <div class="talk">
-                            <i class="fa-solid fa-quote-left"></i>
-                        </div>
-                        <div class="comment">
-                            <p>I volunteer to evaluate products for 3M, and the company recently sent me a free sample of
-                                Scotch Magic Tape. This is my go-to tape for gift wrapping. Pretty wrapping paper can turn
-                                ugly real quick when all you see is the taped seams. Scotch Magic Tape is magic because it
-                                “disappears” when adhered to the wrapping paper. Scotch Magic Tape also has great holding
-                                strength. I am confident that the pretty gift wrap will stay securely taped until the recipient
-                                unwraps it.</p>
-                            <h5>Bozomom</h5>
-                            <i>Anonymous</i>
-                        </div>
+                <div class="review">
+                    <div class="slidewrap">
+                        <ul class="slide">
+                            <li>
+                                <div class="client">
+                                    <img src="img/main/person1.png" alt="client1">
+                                </div>
+                                <div class="talk">
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                                <div class="comment">
+                                    <p>I volunteer to evaluate products for 3M, and the company recently sent me a free sample of
+                                        Scotch Magic Tape. This is my go-to tape for gift wrapping. Pretty wrapping paper can turn
+                                        ugly real quick when all you see is the taped seams. Scotch Magic Tape is magic because it
+                                        “disappears” when adhered to the wrapping paper. Scotch Magic Tape also has great holding
+                                        strength. I am confident that the pretty gift wrap will stay securely taped until the recipient
+                                        unwraps it.</p>
+                                    <h5>Bozomom</h5>
+                                    <i>Anonymous</i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="client">
+                                    <img src="img/main/person2.png" alt="client1">
+                                </div>
+                                <div class="talk">
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                                <div class="comment">
+                                    <p>I ordered this organizer and love it although it is not from post it brand I can not get refills for it. 
+                                        After talking to your agent I was asked to send my idea to you for consideration. I work in a 
+                                        school with special education students and having an item like this at my fingertips is super 
+                                        helpful for myself and the students. The first picture is the product itself made of a durable 
+                                        plastic. The second picture is the dimensions of the sticky paper included. My suggestion is to 
+                                        make the largest note(yellow) a 4" and the green about the same size maybe a bit larger 
+                                        depending on your preset sizes. The flags are nice but can also be replaced with a single pad 
+                                        and the large strips(orange) on the end are very useful. Thank you! Please let me know if this 
+                                        item will ever get produced as I would love to purchase.</p>
+                                    <h5>Edogg</h5>
+                                    <i>Anonymous</i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="client">
+                                    <img src="img/main/person3.png" alt="client1">
+                                </div>
+                                <div class="talk">
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                                <div class="comment">
+                                    <p>3M gave me this product to review. My fiance wears a continuous glucose monitor. The 
+                                        adhesive that game with the monitor was failing a day before the monitor was to be 
+                                        removed. I thought this was the perfect opportunity to try out this product! I tried to 
+                                        reinforce the monitor with this tape, but it only worked for a few hours (nowhere near the 
+                                        48 that it claims). However, the tape didn't leave any irritation or adhesive behind. I 
+                                        would only recommend this product if you have issues with other medical tapes.</p>
+                                    <h5>latay</h5>
+                                    <i>Anonymous</i>
+                                </div>
+                            </li>
+                        </ul>
+                        <span class="prev"><i class="fa-solid fa-arrow-left"></i></span>
+                        <span class="next"><i class="fa-solid fa-arrow-right"></i></span>
                     </div>
                 </div>
             </div>
@@ -350,31 +412,31 @@
 
             <div class="ourinfo">
                 <h5>Our Office</h5>
-                <p><i class="fa-solid fa-location-dot"></i>123 Street, New York, USA</p>
-                <p><i class="fa-solid fa-phone"></i>1-888-364-3577</p>
-                <p><i class="fa-solid fa-envelope"></i>info@example.com</p>
-                <div>
-                    <div>
+                <p><i class="fa-solid fa-location-dot"></i>  123 Street, New York, USA</p>
+                <p><i class="fa-solid fa-phone"></i>  1-888-364-3577</p>
+                <p><i class="fa-solid fa-envelope"></i>  info@example.com</p>
+                <div class="socialmediawrap">
+                    <div class="socialmedia">
                         <i class="fa-brands fa-twitter"></i>
                     </div>
-                    <div>
+                    <div class="socialmedia">
                         <i class="fa-brands fa-facebook-f"></i>
                     </div>
-                    <div>
+                    <div class="socialmedia">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
-                    <div>
+                    <div class="socialmedia">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </div>
                 </div>
             </div>
             <div class="ourinfo">
                 <h5>Quick Links</h5>
-                <p><i></i>About Us</p>
-                <p><i></i>Contact Us</p>
-                <p><i></i>Our Services</p>
-                <p><i></i>Terms & Condition</p>
-                <p><i></i>Support</p>
+                <p><i class="fa-solid fa-angle-right"></i> About Us</p>
+                <p><i class="fa-solid fa-angle-right"></i> Contact Us</p>
+                <p><i class="fa-solid fa-angle-right"></i> Our Services</p>
+                <p><i class="fa-solid fa-angle-right"></i> Terms & Condition</p>
+                <p><i class="fa-solid fa-angle-right"></i> Support</p>
             </div>
             <div class="ourinfo">
                 <h5>Business Hours</h5>
@@ -388,14 +450,14 @@
             <div class="ourinfo">
                 <h5>Newsletter</h5>
                 <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                <div>
+                <div class="email">
                     <input type="text" placeholder="Your email">
                     <button>SignUp</button>
                 </div>
             </div>
         </div>
         </div>
-        <div>
+        <div id="footerbottom">
             <p>Copyright © <span>Your Site Name</span>, All Right Reserved.</p>
             <p>Designed By <span>HTML Codex</span> Distributed By:<span>ThemeWagon</span></p>
         </div>

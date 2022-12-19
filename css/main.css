@@ -8,7 +8,7 @@
 #slider .container button{width: 265px; height: 45px; background-color: #ff0000; color: #fff; border: none; font-size: 16px; font-weight: bold; margin-top: 20px;}
 #slider .container button:hover{background-color: #000; cursor: pointer;}
 
-section{width: 100%; height: auto; background-color: gold; margin: 0 auto;}
+section{width: 100%; height: auto; margin: 0 auto;}
 section .box1{width: 48%; height: 570px; float: left; position: relative; }
 section .box1 img:nth-of-type(1){width: 300px; position: absolute; top: 0; left: 0;}
 section .box1 img:nth-of-type(2){width: 300px; position: absolute; right: 0; bottom: 0;}
@@ -104,15 +104,21 @@ section .container .team .teammember .iconhover .sns i:hover{cursor: pointer;}
 section .container .team .teammember .info h5{font-size: 22px; padding: 20px 0 10px 20px;}
 section .container .team .teammember .info p{color: #ff0000; font-size: 18px; padding: 0 0 0 20px;}
 
-section .container .testimonial{width: 100%; height: auto; background-color: lightblue;}
-section>.container>.testimonial>p{color: #ff0000; font-size: 18px; font-weight: bold; text-align: center;}
-section .container .testimonial h1{font-size: 60px; text-align: center;}
-section .container .testimonial .reviewwrap{width: 100%; height: auto; background-color: lightcoral;}
-section .container .testimonial .reviewwrap .review{width: 468px; height: auto; background-color: lightcyan; margin: 0 auto;}
-section .container .testimonial .reviewwrap .review .client{width: 100px; height: 100px; background-color: lightgoldenrodyellow; border-radius: 50px; margin: 0 auto;}
-section .container .testimonial .reviewwrap .review .client img{width: 100px; height: 100px; border-radius: 50px;}
-section .container .testimonial .reviewwrap .review .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; margin: -1% 46% 0 46%; padding: 9px;}
-section .container .testimonial .reviewwrap .review .talk i{color: #fff; font-size: 22px;}
-section .container .testimonial .reviewwrap .review .comment{width: 468px; height: auto; background-color: lightgray; text-align: center; padding: 30px; box-shadow: 0 0 45px rgb(0 , 0, 0 / 8%);}
-section .section .container .testimonial .reviewwrap .review .comment p{color: #333;}
-section .container .testimonial .reviewwrap .review .comment h5{font-weight: bold; font-size: 22px; padding: 5px;}
+section .container .reviewwrap{width: 100%; height: auto;}
+section .container .reviewwrap>p{color: #ff0000; font-size: 18px; font-weight: bold; text-align: center;}
+section .container .reviewwrap h1{font-size: 60px; text-align: center;}
+section .container .reviewwrap .review{width: 100%; height: auto;}
+section .container .reviewwrap .review .slidewrap{width: 468px; height: auto; margin: 0 auto; position: relative; overflow: hidden;}
+section .container .reviewwrap .review .slidewrap .slide{width: 300%;}
+section .container .reviewwrap .review .slidewrap .slide li{float: left; width: 33.33%; position: relative;}
+section .container .reviewwrap .review .slidewrap .slide .client{width: 100px; height: 100px; border-radius: 50px; margin: 0 auto;}
+section .container .reviewwrap .review .slidewrap .slide .client img{width: 100px; height: 100px; border-radius: 50px;}
+section .container .reviewwrap .review .slidewrap .slide .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; margin: -5% 46% 0 46%; padding: 9px; position: absolute;}
+section .container .reviewwrap .review .slidewrap .slide .talk i{color: #fff; font-size: 22px;}
+section .container .reviewwrap .review .slidewrap .slide .comment{width: 468px; height: auto; background-color: #fff; text-align: center; padding: 30px; box-shadow: 2px 2px 2px #666; margin: 10% 0 0 0;}
+section .container .reviewwrap .review .slidewrap .slide .comment p{color: #333;}
+section .container .reviewwrap .review .slidewrap .slide .comment h5{font-weight: bold; font-size: 22px; padding: 5px;}
+section .container .reviewwrap .review .slidewrap span{position: absolute; top: 7%; color: #ff0000; font-size: 30px;}
+section .container .reviewwrap .review .slidewrap span:hover{cursor: pointer; color: #000;}
+section .container .reviewwrap .review .slidewrap .prev{left: 25%;}
+section .container .reviewwrap .review .slidewrap .next{right: 25%;}
