@@ -40,13 +40,25 @@ section .container .box3{width: 45%; height: 700px; float: left; position: relat
 section .container .box3 img{width: 100%; height: 700px;}
 section .container .box3 .bottonbox{width: 120px; height: 120px; background-color: #fff; border: none; border-radius: 50%; position: absolute; right: -60px; top: 50%; transform: translateY(-50%);}
 section .container .box3 button{width: 60px; height: 60px; background-color: #ff0000; border: none; border-radius: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+section .container .box3 button::before{content: ''; position: absolute; background: #ff0000; width: 60px; height: 60px; top: 0; left: 0; border-radius: 50%; animation: wave 3s infinite linear;}
+section .container .box3 button::after{opacity: 0.4; animation: wave 3s 1.5s infinite linear;}
+@keyframes wave{
+    0%{
+        transform:scale(1);
+        opacity: 0.4;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
 section .container .box3 button:hover{cursor: pointer;}
 section .container .box3 i{color: #fff; font-size: 20px; padding: 10px;}
 
 section .container .choosing{width: 50%; height: 700px; float: right;}
 section>.container>.choosing>p:first-child{color: #ff0000; font-weight: bold;}
 section .container .choosing h1{font-size: 60px;}
-section .container .choosing p{color: #666; font-size: 18px; margin: 10px 0;}
+section .container .choosing p{color: #666; font-size: 18px; margin: 15px 0;}
 section .container .reason{display: flex; flex-wrap: wrap;}
 section .container .reason .check{width: 50px; height: 50px; background-color: red; border: none; border-radius: 50px; padding: 17px; float: left;}
 section .container .reason .check i{color: #fff;}
@@ -93,7 +105,7 @@ section .container .team .teammember .executives1{width: 30%; height: 502px; flo
 section .container .team .teammember .executives2{width: 30%; height: 502px; float: left; margin: 0 2.5%; display: flex; flex-wrap: wrap;  overflow: hidden;}
 section .container .team .teammember .executives3{width: 30%; height: 502px; float: left; margin: 0 0 0 2.5%; display: flex; flex-wrap: wrap;  overflow: hidden;}
 section .container .team .teammember img{width: 100%; height: 80%;}
-section .container .team .teammember .info{width: 100%; height: 20%; background-color: #ddd; display: flex; flex-flow: column wrap; justify-content: flex-start; align-content: flex-start; position: relative;}
+section .container .team .teammember .info{width: 100%; height: 20%; background-color: #eee; display: flex; flex-flow: column wrap; justify-content: flex-start; align-content: flex-start; position: relative;}
 section .container .team .teammember .info .icon{width: 27%; height: 100%; background-color: #ff0000; padding: 20px; position: relative; z-index: 5;}
 section .container .team .teammember .info .icon i{font-size: 60px; color: #fff;}
 section .container .team .teammember .iconhover{width: 284px; height: 100%; background-color: #ff0000; position: absolute; top: auto; bottom: 0; left: -100%;  right: 0; transition: 1s all ease; display: flex; justify-content: flex-start; align-items: center;}
@@ -108,14 +120,14 @@ section .container .reviewwrap{width: 100%; height: auto;}
 section .container .reviewwrap>p{color: #ff0000; font-size: 18px; font-weight: bold; text-align: center;}
 section .container .reviewwrap h1{font-size: 60px; text-align: center;}
 section .container .reviewwrap .review{width: 100%; height: auto;}
-section .container .reviewwrap .review .slidewrap{width: 468px; height: auto; margin: 0 auto; position: relative; overflow: hidden;}
+section .container .reviewwrap .review .slidewrap{width: 500px; height: auto; margin: 0 auto; position: relative; overflow: hidden;}
 section .container .reviewwrap .review .slidewrap .slide{width: 300%;}
 section .container .reviewwrap .review .slidewrap .slide li{float: left; width: 33.33%; position: relative;}
 section .container .reviewwrap .review .slidewrap .slide .client{width: 100px; height: 100px; border-radius: 50px; margin: 0 auto;}
 section .container .reviewwrap .review .slidewrap .slide .client img{width: 100px; height: 100px; border-radius: 50px;}
 section .container .reviewwrap .review .slidewrap .slide .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; margin: -5% 46% 0 46%; padding: 9px; position: absolute;}
 section .container .reviewwrap .review .slidewrap .slide .talk i{color: #fff; font-size: 22px;}
-section .container .reviewwrap .review .slidewrap .slide .comment{width: 468px; height: auto; background-color: #fff; text-align: center; padding: 30px; box-shadow: 2px 2px 2px #666; margin: 10% 0 0 0;}
+section .container .reviewwrap .review .slidewrap .slide .comment{width: 468px; height: auto; background-color: #fff; text-align: center; padding: 30px; box-shadow: 0 0 45px rgba(0, 0, 0, 9%); margin:10% 3.5% 0 3.5%;}
 section .container .reviewwrap .review .slidewrap .slide .comment p{color: #333;}
 section .container .reviewwrap .review .slidewrap .slide .comment h5{font-weight: bold; font-size: 22px; padding: 5px;}
 section .container .reviewwrap .review .slidewrap span{position: absolute; top: 7%; color: #ff0000; font-size: 30px;}
