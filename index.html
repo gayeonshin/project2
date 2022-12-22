@@ -25,6 +25,12 @@
             });
         });
 
+        $(function () {
+            $("#small i").click(function () {
+                $("#small .a").slideToggle();
+            });
+        });
+
     </script>
 </head>
 
@@ -42,7 +48,17 @@
                 <div class="call"></div>
                 <p><i class="fa-solid fa-phone"></i> Call us: 1-888-364-3577</p>
             </div>
-
+            <div id="small">
+                <div class="logo"><a href="#"><img src="img/main/logo.png" alt="logo"></a></div>
+                <div class="a">
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">Industries</a>
+                    <a href="#">Brands</a>
+                    <a href="#">Contact</a>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <div id="mainheader">
                 <div class="logo"><a href="#"><img src="img/main/logo.png" alt="logo"></a></div>
 
