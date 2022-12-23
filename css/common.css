@@ -83,16 +83,16 @@ a{text-decoration: none; color: #333;}
     #mainheader nav button:hover{background-color: #000; cursor: pointer;}
 
     footer{width: 100%; height: auto; background-color: #000; margin: 0 auto; color: #fff;}
-    footer .container .ourinfo{width: 45%; height: auto; float: left; margin: 2.5%; padding: 10px; background-color: lightblue;}
+    footer .container .ourinfo{width: 45%; height: 300px; margin: 2.5%; padding: 10px; float: left;}
     footer .container .ourinfo h5{font-size: 20px; padding: 10px; margin-bottom: 20px;}
     footer .container .ourinfo p{font-size: 18px; padding: 5px 10px;}
-    footer .container .quick p:hover{font-size: 20px; transition: all 0.5s ease-in-out;}
+    footer .container .quick p:hover{font-size: 20px; transition: all 0.5s ease-in-out; cursor: pointer;}
     footer .container .ourinfo h6{font-size: 18px; padding: 5px 10px;}
     footer .container .ourinfo .socialmediawrap{width: 200px; height: 55px; margin-top: 20px;}
     footer .container .ourinfo .socialmediawrap .socialmedia{width: 40px; height: 40px; background-color: #ff0000; border-radius: 50px; float: left; padding: 10px 13px; font-size: 16px; margin: 5px; color: #fff;}
     footer .container .ourinfo .socialmediawrap .socialmedia:hover{cursor: pointer; color: #000;}
-    footer .container .ourinfo .email{width: 295px; height: 60px; border: 1px solid #fff; margin: 15px 10px;}
-    footer .container .ourinfo .email input{width: 200px; height: 60px; font-size: 18px; background-color: transparent; border: none; padding: 15px;}
+    footer .container .ourinfo .email{width: 95%; height: 60px; border: 1px solid #fff; margin: 15px 10px;}
+    footer .container .ourinfo .email input{width: 75%; height: 60px; font-size: 18px; background-color: transparent; border: none; padding: 15px;}
     footer .container .ourinfo .email input:focus{color: #fff; outline: none;}
     footer .container .ourinfo .email button{width: 80px; height: 45px; background-color: #ff0000; color: #fff; border: none; font-size: 16px;}
     footer .container .ourinfo .email button:hover{cursor: pointer; color: #000;}
@@ -128,10 +128,10 @@ a{text-decoration: none; color: #333;}
     #mainheader nav button:hover{background-color: #000; cursor: pointer;}
 
     footer{width: 100%; height: auto; background-color: #000; margin: 0 auto; color: #fff;}
-    footer .container .ourinfo{width: 25%; height: 100%;float: left; padding: 10px;}
+    footer .container .ourinfo{width: 25%; height: 300px; float: left; padding: 10px;}
     footer .container .ourinfo h5{font-size: 20px; padding: 10px; margin-bottom: 20px;}
     footer .container .ourinfo p{font-size: 18px; padding: 5px 10px;}
-    footer .container .quick p:hover{font-size: 20px; transition: all 0.5s ease-in-out;}
+    footer .container .quick p:hover{font-size: 20px; transition: all 0.5s ease-in-out; cursor: po;}
     footer .container .ourinfo h6{font-size: 18px; padding: 5px 10px;}
     footer .container .ourinfo .socialmediawrap{width: 200px; height: 55px; margin-top: 20px;}
     footer .container .ourinfo .socialmediawrap .socialmedia{width: 40px; height: 40px; background-color: #ff0000; border-radius: 50px; float: left; padding: 10px 13px; font-size: 16px; margin: 5px; color: #fff;}
