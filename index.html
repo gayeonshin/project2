@@ -31,6 +31,20 @@
             });
         });
 
+        $(function () {
+            $('.before').click(function () {
+                $('.brand li:last').prependTo('.brand');
+                $('.brand').css('margin-left', '-20%');
+                $('.brand').stop().animate({ marginLeft: 0 }, 800); 
+                
+            });
+            $('.after').click(function () {
+                $('.brand').stop().animate({ marginLeft: '-20%' }, 800, function () {
+                    $('.brand li:first').appendTo('.brand');
+                    $('.brand').css({ marginLeft: 0 });
+                });
+            });
+        });
     </script>
 </head>
 
@@ -278,6 +292,12 @@
                             <img src="img/main/command.png" alt="command">
                             <div class="brandname">
                                 <p>Command</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/main/littmann.png" alt="post-it">
+                            <div class="brandname">
+                                <p>Littmann</p>
                             </div>
                         </li>
                     </ul>
