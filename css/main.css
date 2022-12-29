@@ -93,7 +93,7 @@
     section .ourbrand h1{color: #fff; font-size: 40px; text-align: center;}
     section .ourbrand .brandwrap{width: 100%; height: auto; margin: 50px 0 0 0; position: relative; overflow: hidden;}
     section .ourbrand .brand{width: 600%;}
-    section .ourbrand .brand li{width: 10%; height: 317px; position: relative; overflow: hidden; float: left;}
+    section .ourbrand .brand li{width: 16.66%; height: 317px; position: relative; overflow: hidden; float: left;}
     section .ourbrand .brand li:hover{cursor: pointer;}
     section .ourbrand .brand li:hover .brandname{bottom: 0;}
     section .ourbrand .brand li img{width: 100%;}
@@ -126,18 +126,18 @@
     section .container .team .teammember .info h5{font-size: 22px; padding: 20px 0 10px 20px;}
     section .container .team .teammember .info p{color: #ff0000; font-size: 18px; padding: 0 0 0 20px;}
 
-    section .container .reviewwrap{width: 100%; height: auto; background-color: yellowgreen;}
+    section .container .reviewwrap{width: 100%; height: auto;}
     section .container .reviewwrap>p{color: #ff0000; font-size: 16px; font-weight: bold; text-align: center;}
     section .container .reviewwrap h1{font-size: 40px; text-align: center;}
-    section .container .reviewwrap .review{width: 100%; height: auto; margin-top: 50px; background-color: pink;}
-    section .container .reviewwrap .review .slidewrap{width: 500px; height: auto; margin: 0 auto; position: relative; overflow: hidden;}
+    section .container .reviewwrap .review{width: 100%; height: auto; margin-top: 50px;}
+    section .container .reviewwrap .review .slidewrap{width: 100%; height: auto; margin: 0 auto; position: relative; overflow: hidden;}
     section .container .reviewwrap .review .slidewrap .slide{width: 300%;}
     section .container .reviewwrap .review .slidewrap .slide li{float: left; width: 33.33%; position: relative;}
     section .container .reviewwrap .review .slidewrap .slide .client{width: 100px; height: 100px; border-radius: 50px; margin: 0 auto;}
     section .container .reviewwrap .review .slidewrap .slide .client img{width: 100px; height: 100px; border-radius: 50px;}
     section .container .reviewwrap .review .slidewrap .slide .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; margin: -5% 46% 0 46%; padding: 9px; position: absolute;}
     section .container .reviewwrap .review .slidewrap .slide .talk i{color: #fff; font-size: 22px;}
-    section .container .reviewwrap .review .slidewrap .slide .comment{width: 468px; height: auto; background-color: #fff; text-align: center; padding: 30px; box-shadow: 0 0 45px rgba(0, 0, 0, 9%); margin:10% 1.5% 0 1.5%;}
+    section .container .reviewwrap .review .slidewrap .slide .comment{width: 90%; height: auto; background-color: #fff; text-align: center; padding: 30px; box-shadow: 0 0 45px rgba(0, 0, 0, 9%); margin: 0 auto; margin-top: 10%;}
     section .container .reviewwrap .review .slidewrap .slide .comment p{color: #333;}
     section .container .reviewwrap .review .slidewrap .slide .comment h5{font-weight: bold; font-size: 22px; padding: 5px;}
     section .container .reviewwrap .review .slidewrap span{position: absolute; top: 7%; color: #ff0000; font-size: 30px;}
