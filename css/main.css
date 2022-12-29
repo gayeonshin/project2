@@ -2,9 +2,9 @@
 
 @media(max-width:767px){
     #slider{width: 100%; height: auto; margin: 0 auto; position: relative;}
-    #slider::before{content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.5);}
+    #slider::before{content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
     #slider video{width: 100%; min-height: auto; top: 0; left: 0; margin: 0 auto;}
-    #slider .container{position: absolute; top: 0; left: 0; height: auto; padding: 0 5px;}
+    #slider .container{position: absolute; top: 0; left: 0; height: auto; padding: 0 5px; display: none;}
     #slider .container span{color: #ff0000; font-size: 16px;}
     #slider .container h1{color: #fff; font-size: 30px; padding-bottom: 5px;}
     #slider .container p{color: #fff; font-size: 16px; padding: 5px 0;}
@@ -12,18 +12,18 @@
     #slider .container button:hover{background-color: #000; cursor: pointer;}
 
     section{width: 100%; height: auto; margin: 0 auto;}
-    section .box1{width: 90%; height: 275px; margin: 0 auto; position: relative;}
-    section .box1 img:nth-of-type(1){width: 175px; height: 275px; position: absolute; top: 0; left: 0;}
-    section .box1 img:nth-of-type(2){width: 175px; height: 275px; position: absolute; right: 0;}
+    section .box1{width: 90%; height: 250px; margin: 0 auto; position: relative;}
+    section .box1 img:nth-of-type(1){width: 155px; height: 250px; position: absolute; top: 0; left: 0;}
+    section .box1 img:nth-of-type(2){width: 155px; height: 250px; position: absolute; right: 0;}
     section .industry{width: 90%; height: 560px; margin: 12% 5%; padding: 20px; position: relative;}
     section>.container>.industry>p:first-child{color: #ff0000; font-weight: bold;}
     section .container .industry h1{font-size: 40px; padding-bottom: 20px;}
     section .container .industry p{color: #666; font-size: 16px;}
-    section .container .experience{width: 156px; height: 197px; background-color: #ff0000; padding: 15px 10px; margin: 20px 0;}
-    section .container .experience h1{font-size: 72px;}
-    section .container .experience h5{font-size: 20px; color: #fff; padding: 0 10px;}
-    section .container .list{width: 170px; height: 197px; padding: 10px; position: absolute; right: 2%; top: 39.1%;}
-    section .container .list p{padding: 7px;}
+    section .container .experience{width: 145px; height: 197px; background-color: #ff0000; padding: 15px 10px; margin: 20px 0;}
+    section .container .experience h1{font-size: 65px;}
+    section .container .experience h5{font-size: 16px; color: #fff; padding: 0 10px;}
+    section .container .list{width: 145px; height: 197px; padding: 10px; position: absolute; right: 2%; top: 39.1%;}
+    section .container .list p{padding: 7px; font-size: 14px;}
     section .container .list p i{color: #ff0000;}
     section .container .inquiry{width: 280px; height: 130px; display: flex; flex-wrap: wrap;}
     section .container .inquiry .message{width: 280px; height: 65px; padding: 7px; display: flex; flex-direction: row;}
@@ -61,11 +61,11 @@
     section .container .choosing{width: 90%; height: auto; margin: 70px 5%;}
     section>.container>.choosing>p:first-child{color: #ff0000; font-weight: bold; padding: 10px 0;}
     section .container .choosing h1{font-size: 40px;}
-    section .container .choosing>p{color: #666; font-size: 16px; padding: 25px 0;}
+    section .container .choosing>p{color: #666; font-size: 14px; padding: 25px 0;}
     section .container .reason{display: flex; flex-wrap: wrap;}
-    section .container .reason .check{width: 50px; height: 50px; background-color: red; border: none; border-radius: 50px; padding: 17px; float: left;}
+    section .container .reason .check{width: 40px; height: 40px; background-color: red; border: none; border-radius: 50px; padding: 12px; float: left;}
     section .container .reason .check i{color: #fff;}
-    section .container .reason h4{font-size: 17px; padding: 0 20px;}
+    section .container .reason h4{font-size: 15px; padding: 0 20px;}
     section .container .reason p{width: 93%; padding: 0 70px; margin-bottom: 27px; font-size: 14px;}
 
     section .container .product{width: 100%; height: auto;}
