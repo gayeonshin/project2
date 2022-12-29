@@ -22,7 +22,7 @@
     section .container .experience{width: 145px; height: 197px; background-color: #ff0000; padding: 15px 10px; margin: 20px 0;}
     section .container .experience h1{font-size: 65px;}
     section .container .experience h5{font-size: 16px; color: #fff; padding: 0 10px;}
-    section .container .list{width: 145px; height: 197px; padding: 10px; position: absolute; right: 2%; top: 35.5%; background-color: pink;}
+    section .container .list{width: 145px; height: 197px; padding: 10px; position: absolute; right: 2%; top: 35.5%;}
     section .container .list p{padding: 7px; font-size: 14px;}
     section .container .list p i{color: #ff0000; font-size: 14px;}
     section .container .inquiry{width: 280px; height: 130px; display: flex; flex-wrap: wrap;}
