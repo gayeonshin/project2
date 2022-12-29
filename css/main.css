@@ -109,7 +109,7 @@
     section .container .team{width: 100%; height: auto;}
     section>.container>.team>p{color: #ff0000; font-size: 16px; font-weight: bold; text-align: center; padding: 20px 0 10px 0;}
     section .container .team h1{font-size: 40px; text-align: center;}
-    section .container .team .teammember{width: 100%; height: auto; display: flex; flex-wrap: wrap; margin: 30px 0;}
+    section .container .team .teammember{width: 100%; display: flex; flex-wrap: wrap; margin: 30px 0;}
     section .container .team .teammember>div:hover .iconhover{left: 27%;}
     section .container .team .teammember .executives1{width: 90%; height: 502px; float: left; margin: 2.5% 5%; display: flex; flex-wrap: wrap; overflow: hidden;}
     section .container .team .teammember .executives2{width: 90%; height: 502px; float: left; margin: 2.5% 5%; display: flex; flex-wrap: wrap;  overflow: hidden;}
