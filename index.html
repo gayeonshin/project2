@@ -5,82 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>3M</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.prev').click(function () {
-                $('.slide li:last').prependTo('.slide');
-                $('.slide').css('margin-left', '-100%');
-                $('.slide').stop().animate({ marginLeft: 0 }, 800);
-            });
-            $('.next').click(function () {
-                $('.slide').stop().animate({ marginLeft: '-100%' }, 800, function () {
-                    $('.slide li:first').appendTo('.slide');
-                    $('.slide').css({ marginLeft: 0 });
-                });
-            });
-        });
-
-        $(function () {
-            $("#small i").click(function () {
-                $("#small .a").slideToggle();
-            });
-        });
-
-
-
-        $(function () {
-            if (window.matchMedia("(min-width:1200px)").matches) {
-                $('.before').click(function () {
-                    $('.brand li:last').prependTo('.brand');
-                    $('.brand').css('margin-left', '-20%');
-                    $('.brand').stop().animate({ marginLeft: 0 }, 800);
-
-                });
-                $('.after').click(function () {
-                    $('.brand').stop().animate({ marginLeft: '-20%' }, 800, function () {
-                        $('.brand li:first').appendTo('.brand');
-                        $('.brand').css({ marginLeft: 0 });
-                    });
-                });
-
-            } else if (window.matchMedia("(min-width:768px) and (max-width:1199px)").matches){
-                $('.before').click(function () {
-                    $('.brand li:last').prependTo('.brand');
-                    $('.brand').css('margin-left', '-33.33%');
-                    $('.brand').stop().animate({ marginLeft: 0 }, 800);
-
-                });
-                $('.after').click(function () {
-                    $('.brand').stop().animate({ marginLeft: '-33.33%' }, 800, function () {
-                        $('.brand li:first').appendTo('.brand');
-                        $('.brand').css({ marginLeft: 0 });
-                    });
-                });
-
-            } else{
-                $('.before').click(function () {
-                    $('.brand li:last').prependTo('.brand');
-                    $('.brand').css('margin-left', '-100%');
-                    $('.brand').stop().animate({ marginLeft: 0 }, 800);
-
-                });
-                $('.after').click(function () {
-                    $('.brand').stop().animate({ marginLeft: '-100%' }, 800, function () {
-                        $('.brand li:first').appendTo('.brand');
-                        $('.brand').css({ marginLeft: 0 });
-                    });
-                });
-            }
-
-
-
-        });
-    </script>
+    <script src="js/main.js"></script>
+    <script src="js/common.js"></script>
 </head>
 
 <body>
@@ -495,9 +426,9 @@
             <div class="container">
                 <div class="ourinfo">
                     <h5>Our Office</h5>
-                    <p><i class="fa-solid fa-location-dot"></i> 123 Street, New York, USA</p>
+                    <p><i class="fa-solid fa-location-dot"></i> St. Paul, MN 55144-1000</p>
                     <p><i class="fa-solid fa-phone"></i> 1-888-364-3577</p>
-                    <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+                    <p><i class="fa-solid fa-envelope"></i> 3Mnews@mmm.com</p>
                     <div class="socialmediawrap">
                         <div class="socialmedia">
                             <i class="fa-brands fa-twitter"></i>
@@ -539,10 +470,10 @@
                     </div>
                 </div>
             </div>
-        <div id="footerbottom">
-            <p>Copyright © <span>Your Site Name</span>, All Right Reserved.</p>
-            <p>Designed By <span>HTML Codex</span> Distributed By:<span>ThemeWagon</span></p>
-        </div>
+            <div id="footerbottom">
+                <p>Copyright © <span>Your Site Name</span>, All Right Reserved.</p>
+                <p>Designed By <span>HTML Codex</span> Distributed By:<span>ThemeWagon</span></p>
+            </div>
         </footer>
     </div>
 </body>

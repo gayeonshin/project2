@@ -1,0 +1,124 @@
+@charset "utf-8";
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;}
+
+@media (max-width:767px){
+    #banner{width: 100%; height: 303px; background-image: url(../img/sub/banner.png); background-position: center;}
+    #banner .container{width: 100%; height: auto; margin: 0 auto; padding: 75px 30px;}
+    #banner .container h1{font-size: 50px; color: #fff; padding: 10px 0;}
+    #banner a,p{font-size: 20px; color: #fff;}
+
+    #subwrap{width: 100%; height: auto; background-color: lightcoral; margin: 0 auto;}
+    #subwrap .container{width: 100%; height: auto; background-color: lightgoldenrodyellow;}
+    #subwrap .container .box1{width: 90%; height: 420px; background-color: #f5f5f5; float: left; margin: 5%; padding: 55px; text-align: center;}
+    #subwrap .container .box1 .box2{width: 90px; height: 90px; background-color: #fff; border-radius: 50%; padding: 30px; margin: 0 auto;}
+    #subwrap .container .box1 .box2 i{font-size: 30px; color: #ff0000;}
+    #subwrap .container .box1 h4{font-size: 22px; padding: 20px;}
+    #subwrap .container .box1 p{font-size: 16px; color: #666; padding: 5px 0;}
+    #subwrap .container .box1 button{width: 142px; height: 38px; background: #ff0000; color: #fff; border: none; font-size: 16px; margin-top: 20px;}
+    #subwrap .container .box1 button:hover{cursor: pointer; background-color: #000;}
+
+    #subwrap .container .box3{width: 90%; height: 450px; margin: 0 auto;}
+    #subwrap .container .box3 iframe{width: 100%;}
+
+    #subwrap .container .box4{width: 90%; height: auto; background-color: lightgreen; margin: 0 auto;}
+    #subwrap>.container>.box4>p:first-child{color: #ff0000; font-size: 18px; font-weight: bold;}
+    #subwrap .container .box4 h1{font-size: 40px; padding-bottom: 20px;}
+    #subwrap .container .box4 p{font-size: 16px; color: #666;}
+    #subwrap .container .box4 p a{color: #ff0000;}
+    #subwrap .container .box4 .box5{width: 100%; height: 51px;}
+    #subwrap .container .box4 .box5 .box6{width: 50%; height: 51px; float: left; margin-top: 30px; display: flex; flex-wrap: wrap;}
+    #subwrap .container .box4 .box5 .box6 .box7{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50%; padding: 8px 12px;}
+    #subwrap .container .box4 .box5 .box6 .box7 i{color: #fff; font-size: 15px;}
+    #subwrap .container .box4 .box5 .box6 .box8{width: 70%; height: 51px; margin-left: 15px;}
+    #subwrap .container .box4 .box5 .box6 .box8 h6{font-size: 15px; padding-bottom: 5px;}
+    #subwrap .container .box4 .box9{width: 100%; height: auto; display: flex; flex-direction: column;}
+    #subwrap .container .box4 .box9 .box10 input{width: 100%; height: 60px; font-size: 16px; margin-top: 15px; padding-left: 10px;}
+    #subwrap .container .box4 .box9 .box11 input{width: 100%; height: 60px; font-size: 16px; margin-top: 15px; padding-left: 10px;}
+    #subwrap .container .box4 .box9 .box12 input{width: 100%; height: 60px; font-size: 16px; margin-top: 20px; padding-left: 10px;}
+    #subwrap .container .box4 .box9 .box13 textarea{width: 100%; height: 150px; font-size: 16px; margin-top: 20px; padding: 10px;}
+    #subwrap .container .box4 .btn{width: 95%;}
+    #subwrap .container .box4 button{width: 205px; height: 58px; float: left; background-color: #ff0000; color: #fff; font-size: 16px; border: none; margin-top: 20px;}
+    #subwrap .container .box4 button:hover{cursor: pointer; background-color: #000;}
+}
+
+@media (min-width:768px) and (max-width:1199px){
+    #banner{width: 100%; height: 303px; background-image: url(../img/sub/banner.png); background-position: center;}
+    #banner .container{width: 100%; height: auto; margin: 0 auto; padding: 60px 30px; }
+    #banner .container h1{font-size: 65px; color: #fff; padding: 10px 0;}
+    #banner a,p{font-size: 20px; color: #fff;}
+
+    #subwrap{width: 100%; height: auto; background-color: lightcoral; margin: 0 auto;}
+    #subwrap .container{width: 100%; height: auto; background-color: lightgoldenrodyellow;}
+    #subwrap .container .box1{width: 30%; height: 420px; background-color: #f5f5f5; float: left; margin: 0 1.6%; padding: 55px; text-align: center;}
+    #subwrap .container .box1 .box2{width: 90px; height: 90px; background-color: #fff; border-radius: 50%; padding: 30px; margin: 0 auto;}
+    #subwrap .container .box1 .box2 i{font-size: 30px; color: #ff0000;}
+    #subwrap .container .box1 h4{font-size: 20px; padding: 20px;}
+    #subwrap .container .box1 p{font-size: 16px; color: #666; padding: 5px 0;}
+    #subwrap .container .box1 button{width: 142px; height: 38px; background: #ff0000; color: #fff; border: none; font-size: 16px; margin-top: 20px;}
+    #subwrap .container .box1 button:hover{cursor: pointer; background-color: #000;}
+
+    #subwrap .container .box3{width: 96%; height: 450px; margin: 0 auto;}
+    #subwrap .container .box3 iframe{width: 100%;}
+
+    #subwrap .container .box4{width: 50%; height: auto; float: left; padding-left: 1.6%; background-color: lightblue;}
+    #subwrap>.container>.box4>p:first-child{color: #ff0000; font-size: 18px; font-weight: bold;}
+    #subwrap .container .box4 h1{font-size: 50px; padding-bottom: 20px;}
+    #subwrap .container .box4 p{font-size: 16px; color: #666;}
+    #subwrap .container .box4 p a{color: #ff0000;}
+    #subwrap .container .box4 .box5{width: 100%; height: 51px;}
+    #subwrap .container .box4 .box5 .box6{width: 50%; height: 51px; float: left; margin-top: 30px; display: flex; flex-wrap: wrap;}
+    #subwrap .container .box4 .box5 .box6 .box7{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50%; padding: 8px 12px;}
+    #subwrap .container .box4 .box5 .box6 .box7 i{color: #fff; font-size: 15px;}
+    #subwrap .container .box4 .box5 .box6 .box8{width: 70%; height: 51px; margin-left: 15px;}
+    #subwrap .container .box4 .box5 .box6 .box8 h6{font-size: 15px; padding-bottom: 5px;}
+    #subwrap .container .box4 .box9{width: 100%; height: auto; display: flex; flex-wrap: wrap; justify-content: space-evenly; background-color: lightcyan;}
+    #subwrap .container .box4 .box9 .box10 input{width: 212px; height: 60px; font-size: 16px; margin-top: 15px; padding-left: 10px;}
+    #subwrap .container .box4 .box9 .box11 input{width: 212px; height: 60px; font-size: 16px; margin-top: 15px; padding-left: 10px;}
+    #subwrap .container .box4 .box9 .box12 input{width: 444px; height: 60px; font-size: 16px; margin-top: 20px; padding-left: 10px;}
+    #subwrap .container .box4 .box9 .box13 textarea{width: 444px; height: 150px; font-size: 16px; margin-top: 20px; padding: 10px;}
+    #subwrap .container .box4 .btn{width: 92%;}
+    #subwrap .container .box4 button{width: 205px; height: 58px; float: left; background-color: #ff0000; color: #fff; font-size: 16px; border: none; margin-top: 20px;}
+    #subwrap .container .box4 button:hover{cursor: pointer; background-color: #000;}
+}
+
+@media (min-width:1200px){
+    #banner{width: 100%; height: 303px; background-image: url(../img/sub/banner.png); background-position: center;}
+    #banner .container{width: 1320px; height: auto; margin: 0 auto; padding: 60px 0;}
+    #banner .container h1{font-size: 75px; color: #fff; padding: 10px 0;}
+    #banner a,p{font-size: 20px; color: #fff;}
+
+    #subwrap{width: 1320px; height: auto; margin: 0 auto;}
+    #subwrap .container{width: 100%; height: auto;}
+    #subwrap .container .box1{width: 30%; height: 420px; background-color: #f5f5f5; float: left; margin: 0 1.6%; padding: 55px; text-align: center;}
+    #subwrap .container .box1 .box2{width: 90px; height: 90px; background-color: #fff; border-radius: 50%; padding: 30px; margin: 0 auto;}
+    #subwrap .container .box1 .box2 i{font-size: 30px; color: #ff0000;}
+    #subwrap .container .box1 h4{font-size: 22px; padding: 20px;}
+    #subwrap .container .box1 p{font-size: 16px; color: #666; padding: 5px 0;}
+    #subwrap .container .box1 button{width: 142px; height: 38px; background: #ff0000; color: #fff; border: none; font-size: 16px; margin-top: 20px;}
+    #subwrap .container .box1 button:hover{cursor: pointer; background-color: #000;}
+
+    #subwrap .container .box3{width: 1272px; height: 450px; margin: 0 auto;}
+    #subwrap .container .box3 iframe{width: 100%;}
+
+    #subwrap .container .box4{width: 50%; height: auto; float: left; padding-left: 1.6%;}
+    #subwrap>.container>.box4>p:first-child{color: #ff0000; font-size: 18px; font-weight: bold;}
+    #subwrap .container .box4 h1{font-size: 55px; padding-bottom: 20px;}
+    #subwrap .container .box4 p{font-size: 16px; color: #666;}
+    #subwrap .container .box4 p a{color: #ff0000;}
+    #subwrap .container .box4 .box5{width: 100%; height: 51px;}
+    #subwrap .container .box4 .box5 .box6{width: 50%; height: 51px; float: left; margin-top: 30px; display: flex; flex-wrap: wrap;}
+    #subwrap .container .box4 .box5 .box6 .box7{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50%; padding: 8px 12px;}
+    #subwrap .container .box4 .box5 .box6 .box7 i{color: #fff; font-size: 15px;}
+    #subwrap .container .box4 .box5 .box6 .box8{width: 70%; height: 51px; margin-left: 15px;}
+    #subwrap .container .box4 .box5 .box6 .box8 h6{font-size: 15px; padding-bottom: 5px;}
+    #subwrap .container .box4 .box9{width: 100%; height: auto; display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+    #subwrap .container .box4 .box9 .box10 input{width: 300px; height: 60px; font-size: 16px; margin-top: 15px; padding-left: 10px;}
+    #subwrap .container .box4 .box9 .box11 input{width: 300px; height: 60px; font-size: 16px; margin-top: 15px; padding-left: 10px;}
+    #subwrap .container .box4 .box9 .box12 input{width: 612px; height: 60px; font-size: 16px; margin-top: 20px; padding-left: 10px;}
+    #subwrap .container .box4 .box9 .box13 textarea{width: 612px; height: 150px; font-size: 16px; margin-top: 20px; padding: 10px;}
+    #subwrap .container .box4 .btn{width: 95%;}
+    #subwrap .container .box4 button{width: 205px; height: 58px; float: left; background-color: #ff0000; color: #fff; font-size: 16px; border: none; margin-top: 20px;}
+    #subwrap .container .box4 button:hover{cursor: pointer; background-color: #000;}
+}
