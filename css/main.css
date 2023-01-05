@@ -12,18 +12,18 @@
     #slider .container button:hover{background-color: #000; cursor: pointer;}
 
     section{width: 100%; height: auto; margin: 0 auto;}
-    section .box1{width: 90%; margin: 0 auto; background-color: gold; display: flex; flex-wrap: wrap; justify-content: space-between;}
+    section .box1{width: 90%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;}
     section .box1 img:nth-of-type(1){width: 48%;}
     section .box1 img:nth-of-type(2){width: 48%;}
     section .industry{width: 90%; height: auto; margin: 12% 5%;}
     section>.container>.industry>p:first-child{color: #ff0000; font-weight: bold;}
-    section .container .industry .box2{width: 100%; display: flex; background-color: yellow; margin: 5% 0;}
+    section .container .industry .box2{width: 100%; display: flex; margin: 5% 0;}
     section .container .industry h1{font-size: 50px; padding-bottom: 20px;}
     section .container .industry p{color: #666; font-size: 16px;}
     section .container .experience{width: 165px; background-color: #ff0000; padding: 3% 2%;}
     section .container .experience h1{font-size: 45px; padding: 10% 3%; font-weight: bold;}
     section .container .experience h5{font-size: 21px; color: #fff; padding: 3% 5%;}
-    section .container .list{width: 200px; margin-left: 20px; background-color: yellowgreen;}
+    section .container .list{width: 200px; margin-left: 20px;}
     section .container .list p{padding: 5% 0; font-size: 16px;}
     section .container .list p i{color: #ff0000; font-size: 16px;}
     section .container .inquiry{width: 280px; height: 130px; display: flex; flex-wrap: wrap;}
@@ -74,19 +74,19 @@
     section .container .product h1{font-size: 40px; text-align: center; padding: 10px 0 20px 0;}
     section .container .box-wrap{width: 100%; height: 1638px;}
     section .container .box-wrap .box{width: 90%; height: 546px; display: flex; flex-wrap: wrap; float: left; margin: 0 5%; position: relative; bottom: 0;}
-    section .container .box-wrap .box >img{width: 106px; height: 106px; position: absolute; top: 10%; left: 36%; z-index: 3; box-shadow: 0 0 45px rgba(0, 0, 0, 9%);}
+    section .container .box-wrap .box >img{width: 106px; height: 106px; position: absolute; top: 10%; left: 50%; transform: translateX(-50%); z-index: 3; box-shadow: 0 0 45px rgba(0, 0, 0, 9%);}
     section .container .box-wrap .box .item{width: 100%; height: 407px; background-color: #fff; position: absolute; bottom: 5%; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 0 45px rgba(0, 0, 0, 9%); overflow: hidden;}
     section .container .box-wrap .box .item >img{width: 80%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
     section .container .box-wrap .box .item_title{width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; position: absolute; top: 0; background-color: white; transition: 1s all ease;} 
     section .container .box-wrap .box .item h3{text-align: center;  font-size: 30px; padding: 15px;}
     section .container .box-wrap .box .item hr{width: 30%;}
     section .container .box-wrap .box .item .hovertext{width: 100%; height: 100%; position: absolute; bottom: -100%; padding: 20px; transition: 1s all ease; background: rgba(0, 0, 0, 0.6)}
-    section .container .box-wrap .box .item .hovertext::before{content: ''; width: 100%; height: 100px; position: absolute; top: -50px; left: 0; transform: skewY(-12deg); background-color: white;}
+    section .container .box-wrap .box .item .hovertext::before{content: ''; width: 100%; height: 100px; position: absolute; top: -50px; left: 0; transform: skewY(-9deg); background-color: white;}
     /* section .container .box-wrap .box .item .hovertext::after{content: ''; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); position: absolute; top: 0; left: 0;} */
     section .container .box-wrap .box .item .hovertext p{color: #fff; width: 90%; height: 30px; position: absolute; top: 50%; left: 50%;  z-index:5; transform: translate(-50%,-50%); font-weight: normal;}
     section .container .box-wrap .box .item:hover .item_title{top: -100%;}
     section .container .box-wrap .box .item:hover .hovertext{bottom: 0;}
-    section .container .box-wrap .box button{width: 130px; height: 50px; position: absolute; bottom: 0; left: 32.5%; background-color: #fff; color: #666; border: none; box-shadow: 0 0 45px rgba(0, 0, 0, 9%); font-size: 17px;}
+    section .container .box-wrap .box button{width: 130px; height: 50px; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); background-color: #fff; color: #666; border: none; box-shadow: 0 0 45px rgba(0, 0, 0, 9%); font-size: 17px;}
     section .container .box-wrap .box button:hover{cursor: pointer; background-color: #ff0000; color: #fff;}
 
     section .ourbrand{width: 100%; height: auto; background-color: #000; padding: 100px 0 0 0;}
@@ -99,7 +99,7 @@
     section .ourbrand .brand li:hover .brandname{bottom: 0;}
     section .ourbrand .brand li img{width: 100%;}
     section .ourbrand .brandname{width: 100%; height: 80px; background-color: #000; position: absolute; bottom: -106px; transition: all 1s ease; padding: 15px;}
-    section .ourbrand .brandname::before{content: ''; width: 100%; height: 30px; position: absolute; top: -13px; left: 0; transform: skewY(-4deg); background-color: #000;}
+    section .ourbrand .brandname::before{content: ''; width: 100%; height: 30px; position: absolute; top: -13px; left: 0; transform: skewY(-2deg); background-color: #000;}
     section .ourbrand .brandname p{font-size: 24px;}
     section .ourbrand .brandwrap span{width: 45px; height: 45px; background-color: #ff0000; border-radius: 50%; position: absolute; top: 35%;}
     section .ourbrand .brandwrap span:hover{cursor: pointer; background-color: #000;}
@@ -116,15 +116,15 @@
     section .container .team .teammember .executives2{width: 90%; float: left; margin: 2.5% 5%; display: flex; flex-wrap: wrap;  overflow: hidden;}
     section .container .team .teammember .executives3{width: 90%; float: left; margin: 2.5% 5%; display: flex; flex-wrap: wrap;  overflow: hidden;}
     section .container .team .teammember img{width: 100%;}
-    section .container .team .teammember .info{width: 100%; height: 20%; background-color: #eee; display: flex; flex-flow: column wrap; justify-content: flex-start; align-content: flex-start; position: relative;}
-    section .container .team .teammember .info .icon{width: 27%; height: 100%; background-color: #ff0000; padding: 20px; position: relative; z-index: 5;}
+    section .container .team .teammember .info{width: 100%; height: 20%; background-color: #eee; display: flex; flex-flow: column wrap; justify-content: center; align-content: flex-start; position: relative;}
+    section .container .team .teammember .info .icon{width: 27%; height: 100%; background-color: #ff0000; padding: 20px; position: relative; z-index: 5; display: flex; justify-content: center; align-items: center;}
     section .container .team .teammember .info .icon i{font-size: 60px; color: #fff;}
     section .container .team .teammember .iconhover{width: 284px; height: 100%; background-color: #ff0000; position: absolute; top: auto; bottom: 0; left: -100%;  right: 0; transition: 1s all ease; display: flex; justify-content: flex-start; align-items: center;}
     /* section .container .team .teammember .info .icon .iconhover::before{content: ''; width: 100%; height: 100%; position: absolute; background-color: #ff0000; bottom: 0; left: -10px;} */
     section .container .team .teammember .iconhover .sns{width: 50px; height: 50px; background-color: #000; border-radius: 50px; padding: 15px;  margin: 0 5px; display: flex; justify-content: center; align-items: center;}
     section .container .team .teammember .iconhover .sns i{color: #fff; font-size: 20px;}
     section .container .team .teammember .iconhover .sns i:hover{cursor: pointer;}
-    section .container .team .teammember .info h5{font-size: 22px; padding: 20px 0 10px 20px;}
+    section .container .team .teammember .info h5{font-size: 22px; padding: 0 0 10px 20px;}
     section .container .team .teammember .info p{color: #ff0000; font-size: 18px; padding: 0 0 0 20px;}
 
     section .container .reviewwrap{width: 100%; height: auto;}
@@ -134,10 +134,10 @@
     section .container .reviewwrap .review .slidewrap{width: 100%; height: auto; margin: 0 auto; position: relative; overflow: hidden;}
     section .container .reviewwrap .review .slidewrap .slide{width: 300%;}
     section .container .reviewwrap .review .slidewrap .slide li{float: left; width: 33.33%; position: relative;}
-    section .container .reviewwrap .review .slidewrap .slide .client{width: 100px; height: 100px; border-radius: 50px; margin: 0 auto;}
+    section .container .reviewwrap .review .slidewrap .slide .client{width: 100px; height: 100px; border-radius: 50px; margin: 0 auto; position: relative;}
     section .container .reviewwrap .review .slidewrap .slide .client img{width: 100px; height: 100px; border-radius: 50px;}
-    section .container .reviewwrap .review .slidewrap .slide .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; margin: -5% 44% 0 44%; padding: 9px; position: absolute;}
-    section .container .reviewwrap .review .slidewrap .slide .talk i{color: #fff; font-size: 22px;}
+    section .container .reviewwrap .review .slidewrap .slide .client .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; padding: 9px; position: absolute; left: 50%; bottom: -20%; transform: translateX(-50%);}
+    section .container .reviewwrap .review .slidewrap .slide .client .talk i{color: #fff; font-size: 22px;}
     section .container .reviewwrap .review .slidewrap .slide .comment{width: 90%; height: auto; background-color: #fff; text-align: center; padding: 30px; box-shadow: 0 0 45px rgba(0, 0, 0, 9%); margin: 0 auto; margin-top: 10%;}
     section .container .reviewwrap .review .slidewrap .slide .comment p{color: #333;}
     section .container .reviewwrap .review .slidewrap .slide .comment h5{font-weight: bold; font-size: 22px; padding: 5px;}
@@ -158,18 +158,18 @@
     #slider .container button:hover{background-color: #000; cursor: pointer;}
 
     section{width: 100%; height: auto; margin: 0 auto;}
-    section .box1{width: 90%; margin: 0 auto; background-color: gold; display: flex; flex-wrap: wrap; justify-content: space-between;}
+    section .box1{width: 90%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;}
     section .box1 img:nth-of-type(1){width: 48%;}
     section .box1 img:nth-of-type(2){width: 48%;}
     section .industry{width: 90%; height: auto; margin: 12% 5%;}
     section>.container>.industry>p:first-child{color: #ff0000; font-weight: bold;}
-    section .container .industry .box2{width: 100%; display: flex; background-color: yellow; margin: 5% 0;}
+    section .container .industry .box2{width: 100%; display: flex; margin: 5% 0;}
     section .container .industry h1{font-size: 50px; padding-bottom: 20px;}
     section .container .industry p{color: #666; font-size: 16px;}
     section .container .experience{width: 165px; background-color: #ff0000; padding: 2% 2%;}
     section .container .experience h1{font-size: 60px; padding: 5% 2%; font-weight: bold;}
     section .container .experience h5{font-size: 21px; color: #fff; padding: 3% 7%;}
-    section .container .list{width: 200px; margin-left: 20px; background-color: yellowgreen;}
+    section .container .list{width: 200px; margin-left: 20px;}
     section .container .list p{padding: 5% 0; font-size: 16px;}
     section .container .list p i{color: #ff0000; font-size: 16px;}
     section .container .inquiry{width: 100%; height: 65px; display: flex; flex-wrap: wrap;}
@@ -280,10 +280,10 @@
     section .container .reviewwrap .review .slidewrap{width: 500px; height: auto; margin: 0 auto; position: relative; overflow: hidden;}
     section .container .reviewwrap .review .slidewrap .slide{width: 300%;}
     section .container .reviewwrap .review .slidewrap .slide li{float: left; width: 33.33%; position: relative;}
-    section .container .reviewwrap .review .slidewrap .slide .client{width: 100px; height: 100px; border-radius: 50px; margin: 0 auto;}
+    section .container .reviewwrap .review .slidewrap .slide .client{width: 100px; height: 100px; border-radius: 50px; margin: 0 auto; position: relative;}
     section .container .reviewwrap .review .slidewrap .slide .client img{width: 100px; height: 100px; border-radius: 50px;}
-    section .container .reviewwrap .review .slidewrap .slide .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; margin: -5% 46% 0 46%; padding: 9px; position: absolute;}
-    section .container .reviewwrap .review .slidewrap .slide .talk i{color: #fff; font-size: 22px;}
+    section .container .reviewwrap .review .slidewrap .slide .client .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; padding: 9px; position: absolute; left: 50%; bottom: -20%; transform: translateX(-50%);}
+    section .container .reviewwrap .review .slidewrap .slide .client .talk i{color: #fff; font-size: 22px;}
     section .container .reviewwrap .review .slidewrap .slide .comment{width: 468px; height: auto; background-color: #fff; text-align: center; padding: 30px; box-shadow: 0 0 45px rgba(0, 0, 0, 9%); margin:10% 3.5% 0 3.5%;}
     section .container .reviewwrap .review .slidewrap .slide .comment p{color: #333;}
     section .container .reviewwrap .review .slidewrap .slide .comment h5{font-weight: bold; font-size: 22px; padding: 5px;}
@@ -425,10 +425,10 @@
     section .container .reviewwrap .review .slidewrap{width: 500px; height: auto; margin: 0 auto; position: relative; overflow: hidden;}
     section .container .reviewwrap .review .slidewrap .slide{width: 300%;}
     section .container .reviewwrap .review .slidewrap .slide li{float: left; width: 33.33%; position: relative;}
-    section .container .reviewwrap .review .slidewrap .slide .client{width: 100px; height: 100px; border-radius: 50px; margin: 0 auto;}
+    section .container .reviewwrap .review .slidewrap .slide .client{width: 100px; height: 100px; border-radius: 50px; margin: 0 auto; position: relative;}
     section .container .reviewwrap .review .slidewrap .slide .client img{width: 100px; height: 100px; border-radius: 50px;}
-    section .container .reviewwrap .review .slidewrap .slide .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; margin: -5% 46% 0 46%; padding: 9px; position: absolute;}
-    section .container .reviewwrap .review .slidewrap .slide .talk i{color: #fff; font-size: 22px;}
+    section .container .reviewwrap .review .slidewrap .slide .client .talk{width: 38px; height: 38px; background-color: #ff0000; border-radius: 50px; padding: 9px; position: absolute; left: 50%; bottom: -20%; transform: translateX(-50%);}
+    section .container .reviewwrap .review .slidewrap .slide .client .talk i{color: #fff; font-size: 22px;}
     section .container .reviewwrap .review .slidewrap .slide .comment{width: 468px; height: auto; background-color: #fff; text-align: center; padding: 30px; box-shadow: 0 0 45px rgba(0, 0, 0, 9%); margin:10% 3.5% 0 3.5%;}
     section .container .reviewwrap .review .slidewrap .slide .comment p{color: #333;}
     section .container .reviewwrap .review .slidewrap .slide .comment h5{font-weight: bold; font-size: 22px; padding: 5px;}
