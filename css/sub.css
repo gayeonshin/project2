@@ -41,7 +41,7 @@ a{text-decoration: none;}
     #subwrap .contactus .container .box4 button:hover{cursor: pointer; background-color: #000;}
 }
 
-@media (min-width:768px) and (max-width:1199px){
+@media (min-width:768px) and (max-width:1312px){
     #banner{width: 100%; height: 303px; background-image: url(../img/sub/banner.png); background-position: center;}
     #banner .container{width: 100%; height: auto; margin: 0 auto; padding: 60px 30px; }
     #banner .container h1{font-size: 65px; color: #fff; padding: 10px 0;}
@@ -82,13 +82,13 @@ a{text-decoration: none;}
     #subwrap .contactus .container .box4 button:hover{cursor: pointer; background-color: #000;}
 }
 
-@media (min-width:1200px){
+@media (min-width:1313px){
     #banner{width: 100%; height: 303px; background-image: url(../img/sub/banner.png); background-position: center;}
-    #banner .container{width: 1320px; height: auto; margin: 0 auto; padding: 60px 0;}
+    #banner .container{width: 1296px; height: auto; margin: 0 auto; padding: 60px 0;}
     #banner .container h1{font-size: 75px; color: #fff; padding: 10px 0;}
     #banner a,p{font-size: 20px; color: #fff;}
 
-    #subwrap{width: 1320px; height: auto; margin: 0 auto;}
+    #subwrap{width: 1296px; height: auto; margin: 0 auto;}
     #subwrap .container{width: 100%; height: auto;}
     #subwrap .container .box1{width: 30%; height: 420px; background-color: #f5f5f5; float: left; margin: 0 1.6%; padding: 55px; text-align: center;}
     #subwrap .container .box1 .box2{width: 90px; height: 90px; background-color: #fff; border-radius: 50%; padding: 30px; margin: 0 auto;}
@@ -98,7 +98,7 @@ a{text-decoration: none;}
     #subwrap .container .box1 button{width: 142px; height: 38px; background: #ff0000; color: #fff; border: none; font-size: 16px; margin-top: 20px;}
     #subwrap .container .box1 button:hover{cursor: pointer; background-color: #000;}
 
-    #subwrap .container .box3{width: 1272px; height: 450px; margin: 0 auto;}
+    #subwrap .container .box3{width: 1296px; height: 450px; margin: 0 auto;}
     #subwrap .container .box3 iframe{width: 100%;}
 
     #subwrap .contactus .container{display: flex;}
