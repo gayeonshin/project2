@@ -21,7 +21,7 @@ a{text-decoration: none; color: #333;}
     #small img{width: 60%; height: 55px; transform: skewX(30deg); margin: 10px 35px;}
     #small .a{position: absolute; top: 75px; left: 0; width: 100%; background-color: #fff; display: none; z-index: 5;}
     #small .a a{display: block; padding: 20px 30px; font-size: 20px;}
-    #small>.a>a:first-child{color: #ff0000;}
+    #small>.a>a.active{color: #ff0000;}
     #small .a a:hover{cursor: pointer; color: #ff0000;}
     #small i{float: right; font-size: 30px; margin: 3px 20px; color: #666;}
     #small i:hover{cursor: pointer;}
@@ -75,7 +75,7 @@ a{text-decoration: none; color: #333;}
     #small img{width: 60%; height: 55px; transform: skewX(30deg); margin: 10px 35px;}
     #small .a{position: absolute; top: 75px; left: 0; width: 100%; background-color: #fff; display: none; z-index: 5;}
     #small .a a{display: block; padding: 20px 30px; font-size: 20px;}
-    #small>.a>a:first-child{color: #ff0000;}
+    #small>.a>a.active{color: #ff0000;}
     #small .a a:hover{cursor: pointer; color: #ff0000;}
     #small i{float: right; font-size: 30px; margin: 3px 20px; color: #666;}
     #small i:hover{cursor: pointer;}
@@ -132,7 +132,7 @@ a{text-decoration: none; color: #333;}
     #mainheader nav ul{display: flex; flex-direction: row;}
     #mainheader nav ul li{padding: 20px;}
     #mainheader nav ul li a{font-size: 20px;}
-    #mainheader>nav>ul>li:first-child a{color: #ff0000;}
+    #mainheader>nav>ul>li a.active {color: #ff0000;}
     #mainheader nav ul li a:hover{color: #ff0000;}
     #mainheader nav button{width: 130px; height: 40px; background-color: #ff0000; color: #fff; border: none; font-size: 18px;}
     #mainheader nav button:hover{background-color: #000; cursor: pointer;}
